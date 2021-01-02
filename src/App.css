@@ -32,11 +32,11 @@ header .container {
     font-size: 40px;
 }
 
-header #nav-items li {
+#header-navbar li {
     display: inline;
 }
 
-header #nav-items a {
+#header-navbar a {
     display: inline-block;
     padding: 37px;
     color: white;
@@ -45,3 +45,34 @@ header #nav-items a {
 }
 
 /* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 980px;
+}
+
+#footer-navbar li {
+    display: inline;
+    margin: 0 37px;
+}
+
+#footer-navbar a {
+    display: inline;
+    color: black;
+    font-size: 15px;
+}
+
+#footer-navbar a, footer p {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 15px;
+}
