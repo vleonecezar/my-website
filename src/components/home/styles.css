@@ -1,0 +1,51 @@
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(132, 137, 211);
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+}
+
+.profile img {
+    width: 310px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    margin-left: 70px;
+}
+
+.profile-info h2 {
+    font-family: ubuntu, serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.profile-info p {
+    font-family: ubuntu, serif;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 500px;
+}
+
+hr {
+    color: yellow;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}

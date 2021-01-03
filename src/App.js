@@ -1,7 +1,10 @@
 import './App.css';
+import { BrowserRouter as Router, Link } from 'react-router-dom'
+import Routes from './routes'
 
 function App() {
   return (
+    <Router>
     <div className="App">
         <header>
         <div className="container">
@@ -21,6 +24,7 @@ function App() {
                 </nav>
         </div>
     </header>
+        <Routes/>
         <footer>
             <div className="container">
                 <nav id="footer-navbar">
@@ -40,6 +44,7 @@ function App() {
             </div>
         </footer>
     </div>
+    </Router>
   );
 }
 
