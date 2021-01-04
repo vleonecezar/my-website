@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 import Routes from './routes'
 
 function App() {
@@ -8,17 +8,17 @@ function App() {
     <div className="App">
         <header>
         <div className="container">
-            <a id ="header-logo" href="#">VitorCezar</a>
+            <a id ="header-logo" href="http://localhost:3000">VitorCezar</a>
                 <nav id="header-navbar">
                     <ul>
                         <li>
-                            <a href="#">sobre</a>
+                            <a href="http://localhost:3000">sobre</a>
                         </li>
                         <li>
-                            <a href="#">portfólio</a>
+                            <a href="http://localhost:3000">portfólio</a>
                         </li>
                         <li>
-                            <a href="#">contato</a>
+                            <a href="http://localhost:3000">contato</a>
                         </li>
                     </ul>
                 </nav>
@@ -30,13 +30,13 @@ function App() {
                 <nav id="footer-navbar">
                     <ul id="nav-items">
                         <li>
-                            <a href="#">sobre</a>
+                            <a href="http://localhost:3000">sobre</a>
                         </li>
                         <li>
-                            <a href="#">portfólio</a>
+                            <a href="http://localhost:3000">portfólio</a>
                         </li>
                         <li>
-                            <a href="#">contato</a>
+                            <a href="http://localhost:3000">contato</a>
                         </li>
                     </ul>
                 </nav>
