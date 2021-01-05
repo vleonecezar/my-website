@@ -20,12 +20,10 @@ const Home = () => {
         getProjects().then(data => {
             setHomeContent(
                 data['projects'].map(project => (
-                    <div className="projects-container">
-                        <div className="project">
-                            <img key={project.id} src={project.image} alt={`foto do projeto ${project.name}`}/>
-                            <h3>{project.name}</h3>
-                            <p>{project.description}</p>
-                        </div>
+                    <div className="project">
+                        <img key={project.id} src={project.image} alt={`foto do projeto ${project.name}`}/>
+                        <h3>{project.name}</h3>
+                        <p>{project.description}</p>
                     </div>
                 ))
             )
@@ -46,8 +44,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <h2>Ultimos Projetos</h2>
+            <h2 id="projects-title">Ultimos Projetos</h2>
+            <div className="projects-container">
                 {homeContent}
             </div>
         </section>

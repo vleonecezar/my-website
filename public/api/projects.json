@@ -3,22 +3,22 @@
         {
             "id": "01",
             "image": "./projects_images/image_ilu.jpg",
-            "name": "projeto01",
-            "description": "projeto01 description"
+            "name": "Clone do evernote",
+            "description": "Feito com javascript e react"
         },
 
         {
             "id": "02",
             "image": "./projects_images/image_ilu.jpg",
-            "name": "projeto02",
-            "description": "projeto02 description"
+            "name": "Clone do evernote",
+            "description": "Feito com javascript e react"
         },
 
         {
             "id": "03",
             "image": "./projects_images/image_ilu.jpg",
-            "name": "projeto03",
-            "description": "projeto03 description"
+            "name": "Clone do evernote",
+            "description": "Feito com javascript e react"
         }
     ]
 }

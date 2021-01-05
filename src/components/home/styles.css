@@ -3,13 +3,16 @@ section {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(247, 247, 247);
 }
 
 .profile-container {
     display: flex;
     justify-content: center;
-    background-color: rgb(132, 137, 211);
+    background-color:;
     width: 100%;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    background-color: white;
 }
 
 .profile {
@@ -18,12 +21,13 @@ section {
     justify-content: center;
     width: 100%;
     max-width: 900px;
-    height: 500px;
+    height: 532px;
 }
 
 .profile img {
     width: 310px;
     border-radius: 50%;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.3), 0px -3px 1px 0px rgba(0, 0, 0, 0.3);
 }
 
 .profile-info {
@@ -48,4 +52,46 @@ hr {
     color: yellow;
     margin-bottom: 10px;
     padding: 0 20px;
+}
+
+.projects-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#projects-title {
+    margin: 90px 0 15px;
+    font-family: ubuntu, serif;
+    text-transform: uppercase;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin: 15px 13px;
+    border-radius: 2%;
+    box-shadow: 1px 1px 2px rgba(0,0,0, .1), -1px -1px 2px rgba(0,0,0, .1);
+    background-color: white;
+}
+
+.project h3 {
+    font-family: ubuntu, serif;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.project img {
+    width: 310px;
+    height: 170px;
+    margin: 8px 8px;
+    border-radius: 2%;
+}
+
+.project p {
+    font-family: ubuntu, serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 8px 0 25px 8px;
+    width: 310px;
 }
