@@ -1,21 +1,21 @@
 {
     "projects":[
         {
-            "id": "01",
+            "id": "project01",
             "image": "./projects_images/image_ilu.jpg",
             "name": "Clone do evernote",
             "description": "Feito com javascript e react"
         },
 
         {
-            "id": "02",
+            "id": "project02",
             "image": "./projects_images/image_ilu.jpg",
             "name": "Clone do evernote",
             "description": "Feito com javascript e react"
         },
 
         {
-            "id": "03",
+            "id": "project03",
             "image": "./projects_images/image_ilu.jpg",
             "name": "Clone do evernote",
             "description": "Feito com javascript e react"
