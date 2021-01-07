@@ -35,6 +35,11 @@ header .container {
     margin-left: 120px;
 }
 
+#mobile-menu hr {
+    display: none;
+}
+
+
 #header-navbar li {
     display: inline;
 }
@@ -64,9 +69,8 @@ footer {
 footer .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     width: 100%;
-    max-width: 980px;
 }
 
 #footer-navbar li {
@@ -84,3 +88,61 @@ footer .container {
     font-family: 'Ubuntu', sans-serif;
     margin-top: 15px;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 1024px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #header-logo {
+        font-family: 'Trade Winds', cursive;
+        color: rgb(65, 141, 255);
+        text-shadow: 1px 2px black;
+        font-size: 40px;
+        margin-left: 120px;
+    }
+
+    #header-logo {
+        margin: 0;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #header-navbar a {
+        padding: 25px;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+
+    footer p {
+        font-size: 25px;
+    }
+
+   footer nav {
+       display: none;
+   }
+  }
+
+  @media only screen and (max-width: 360px) {
+    #header-navbar a {
+        display: inline-block;
+        padding: 20px 0;
+        font-size: 17px;
+    }
+
+    footer .container {
+        width: 200px;
+    }
+    
+    footer p {
+        font-size: 18px;
+    }
+  }

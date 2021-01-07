@@ -23,7 +23,7 @@ section {
     align-items: center;
     width: 100%;
     max-width: 900px;
-    height: 500px;
+    min-height: 500px;
     flex-wrap: wrap;
 }
 
@@ -36,6 +36,9 @@ section {
 .profile-info {
     margin-top: 50px;
     margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profile-info h2 {
@@ -57,6 +60,7 @@ section {
 .profile-buttons {
     display: flex;
     justify-content: space-around;
+    width: 100%;
     max-width: 460px;
     margin: 40px 0;
 }
@@ -67,7 +71,6 @@ section {
     align-items: center;
     width: 150px;
     height: 40px;
-    
     color: black;
     background-color: rgb(81, 151, 255);
     border-radius: 30px 30px 30px 30px;
@@ -135,3 +138,86 @@ section {
     margin: 8px 0 25px 8px;
     width: 310px;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 1024px) {
+
+    .profile-info p, footer navbar p {
+        font-size: 30px;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+    }
+    
+    .profile img {
+        margin-top: 40px;
+    }
+
+    .profile-info {
+        margin: 50px 0 0 0;
+    }
+
+    .profile-info p, footer navbar p {
+        font-size: 27px;
+    }
+
+    #projects-title{
+        font-size: 30px;
+    }
+
+    .project h3 {
+        font-size: 25px;
+    }
+
+    .project p {
+        font-size: 22px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .profile {
+        flex-direction: column;
+    }
+    
+    .profile img {
+        width: 200px;
+    }
+
+    .profile-info h2 {
+        font-size: 33px;
+    }
+
+    .profile-info p {
+        width: 220px;
+        text-align: center;
+    }
+
+    .profile-info p, footer navbar p {
+        font-size: 20px;
+    }
+
+    #projects-title{
+        font-size: 23px;
+    }
+
+    .project {
+        margin: 15px 0;
+    }
+
+    .project h3 {
+        font-size: 23px;
+    }
+
+    .project p {
+        font-size: 20px;
+    }
+
+    .profile-buttons a {
+        width: 125px;
+        height: 30px;
+    }
+  }

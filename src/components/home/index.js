@@ -8,7 +8,7 @@ function projectsMouseOver(id) {
     const elements = document.querySelectorAll(".project")
     
     elements.forEach(element => {
-        element.style.opacity = "0.4"
+        element.style.opacity = "0.3"
     })
 
     document.getElementById(id).style.opacity = "1"
@@ -65,11 +65,11 @@ const Home = () => {
                         </p>
                         <div className="profile-buttons">
                             <a href="http://localhost:3000">
-                                <i class="fab fa-github"></i>
+                                <i className="fab fa-github"></i>
                                 Github
                             </a>
                             <a href="#">
-                                <i class="fab fa-instagram"></i>
+                                <i className="fab fa-instagram"></i>
                                 Instagram
                             </a>
                         </div>

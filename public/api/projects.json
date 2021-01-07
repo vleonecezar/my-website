@@ -1,21 +1,24 @@
 {
     "projects":[
         {
-            "id": "project01",
+            "id": "01",
+            "idimg": "img01",
             "image": "./projects_images/image_ilu.jpg",
             "name": "Clone do evernote",
             "description": "Feito com javascript e react"
         },
 
         {
-            "id": "project02",
+            "id": "02",
+            "idimg": "img02",
             "image": "./projects_images/image_ilu.jpg",
             "name": "Clone do evernote",
             "description": "Feito com javascript e react"
         },
 
         {
-            "id": "project03",
+            "id": "03",
+            "idimg": "img03",
             "image": "./projects_images/image_ilu.jpg",
             "name": "Clone do evernote",
             "description": "Feito com javascript e react"

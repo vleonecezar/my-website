@@ -9,17 +9,17 @@ function App() {
         <header>
         <div className="container">
             <a id ="header-logo" href="http://localhost:3000">VitorCezar</a>
-                <nav id="header-navbar">
-                    <ul>
-                        <li>
-                            <a href="http://localhost:3000">sobre</a>
-                        </li>
-                        <li>
-                            <a href="http://localhost:3000">portfólio</a>
-                        </li>
-                        <li>
-                            <a href="http://localhost:3000">contato</a>
-                        </li>
+            <nav id="header-navbar">
+                <ul>
+                    <li>
+                        <a href="http://localhost:3000">sobre</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:3000">portfólio</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:3000">contato</a>
+                    </li>
                     </ul>
                 </nav>
         </div>
